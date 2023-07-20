@@ -1,0 +1,78 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 30px;
+    text-transform: full-width;
+    color: firebrick;
+    font-weight: bolder;
+
+    background-image: url('img/download.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+img{
+    border: thin;
+    border-radius: 25px;
+}
+
+.enter-api{
+    width: 300px;
+    height: 150px;
+    display:ruby-base-container;
+padding: 90px 0 0 90px;
+    background-color: royalblue;
+
+    border:solid;
+    border-radius: 10px;
+}
+
+.text{
+    padding-top: 25px;
+    text-align: left;
+}
+
+form{
+    padding:100px 0 0 25px;
+}
+#apiKey{
+    width: 245px;
+    height: 30px;
+    margin-top: 30px;
+
+    border: initial;
+    border-radius: 5px;
+}
+
+#submitApiKey{
+    width: 200px;
+    height: 35px;
+    margin: 3px 0 0 25px;
+
+    background-color: greenyellow;
+    font-weight: 700;
+    font-size: large;
+    color: white;
+
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#submitApiKey:hover{
+    background-color: hotpink;
+}
+
+h1{
+    color: dodgerblue;
+    padding-left: 150px;
+    font-weight: bold;
+
+}
+
+h2{
+    color: fuchsia;
+    padding-left: 150px;
+    font-weight: bold;
+
+}
